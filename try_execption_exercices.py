@@ -16,8 +16,16 @@ def try_error_now(num,deno):
 
     else:
         print(result)
+        
+def try_finish(num,deno):
+    try:
+        result = num/deno
+    except ZeroDivisionError:
+        print("You can not divide by 0")
+        #pass
+    #finally:
+        #print("Except was skip", result)
 
 
 if __name__ == "__main__":
-
-    try_error_now()
+    try_finish(3,0)
