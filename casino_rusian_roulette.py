@@ -24,6 +24,7 @@ def half_budget(budget):
 def check_if_user_win(user_input,random_value,money_budget):
     if user_input == random_value:
         print("You win")
+        
     elif random_value%2==0 and user_input%2 ==0:
         print("Pair : Here is hal of you money")
         new_money_budget= half_budget(money_budget)
