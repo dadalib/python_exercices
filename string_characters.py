@@ -18,3 +18,8 @@ name = "DL"
 number = 3
 
 print("I am {0} the number {1}".format(name,number))
+
+test_in_chain = "HI Babe"
+
+print(test_in_chain[0])
+print(test_in_chain[5])
