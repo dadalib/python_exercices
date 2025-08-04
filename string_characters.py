@@ -23,3 +23,8 @@ test_in_chain = "HI Babe"
 
 print(test_in_chain[0])
 print(test_in_chain[5])
+print(test_in_chain[-1])
+print(len(test_in_chain))
+print(test_in_chain[:2])
+
+
